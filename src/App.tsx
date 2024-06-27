@@ -6,11 +6,22 @@ import { Experience } from "./components/Experience.tsx";
 export interface Job {
   company: String;
   position: String;
+  description: String[];
 }
 function App() {
   const jobs: Job[] = [
-    { company: "Excellus BCBS", position: "Data Science Intern" },
-    { company: "URMC", position: "ML Research Intern" },
+    {
+      company: "Excellus BCBS",
+      position: "Data Science Intern",
+      description: [
+        "Hosted an app with an Angular frontend and ML pipeline making decisions in prior authorization process with 70% accuracy",
+      ],
+    },
+    {
+      company: "URMC",
+      position: "ML Research Intern",
+      description: ["Solved cancer", "Made ML tools and shit"],
+    },
   ];
 
   return (
