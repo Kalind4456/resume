@@ -15,7 +15,7 @@ export const Experience: React.FC<ExperienceProps> = ({ jobs: jobs }) => {
           <div className="flex flex-col justify-center items-center text-center">
             <h2 className="text-lg italic font-bold">{job.position}</h2>
             {job.description.map((desc, index) => (
-              <div className="flex items-baseline">
+              <div key={index} className="flex items-baseline">
                 {/* <h3 className="text-lg italic font-bold"></h3> */}
                 <h3 key={index} className="inline ml-2">
                   {desc}
