@@ -5,11 +5,15 @@ export const Header = () => {
       <div className="flex items-baseline space-x-2 justify-center ">
         <h2 className="inline">
           <strong>Email: </strong>
-          <a href="mailto:kadhika2@u.rochester.edu">kalind2@u.rochester.edu</a>
+          <a href="mailto:kadhika2@u.rochester.edu" target="_blank">
+            kalind2@u.rochester.edu
+          </a>
         </h2>
         <h2 className="inline">
           <strong>GitHub: </strong>
-          <a href="https://github.com/Kalind4456">kalind4456</a>
+          <a href="https://github.com/Kalind4456" target="_blank">
+            kalind4456
+          </a>
         </h2>
       </div>
     </div>

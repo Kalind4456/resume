@@ -4,9 +4,9 @@ import { School } from "./components/School.tsx";
 import { Experience } from "./components/Experience.tsx";
 
 export interface Job {
-  company: String;
-  position: String;
-  description: String[];
+  company: string;
+  position: string;
+  description: string[];
 }
 function App() {
   const jobs: Job[] = [
@@ -20,7 +20,7 @@ function App() {
     {
       company: "URMC",
       position: "ML Research Intern",
-      description: ["Solved cancer", "Made ML tools and shit"],
+      description: ["Solved cancer", "Made ML tools"],
     },
   ];
 
